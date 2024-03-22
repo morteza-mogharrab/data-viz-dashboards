@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #f8f9fa; /* Light gray background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  color: #212529; /* Dark gray text color */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem; /* Adjust the size as needed */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.form-select {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da; /* Light gray border color */
+  background-color: #ffffff; /* White background color */
+  color: #212529; /* Dark gray text color */
+}
+
+/* Add responsive behavior if necessary */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar-brand,
+  .form-select {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

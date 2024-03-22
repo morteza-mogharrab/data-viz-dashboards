@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #212529; /* Dark text color for better readability on a light background */
+  background-color: #ffffff; /* White background for a brighter, cleaner look */
+}
+
+.crypto-table {
+  margin: 20px auto;
+  border: 1px solid #dee2e6; /* Lighter border color for a subtle contrast */
+}
+
+.crypto-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.crypto-table th, .crypto-table td {
+  text-align: left;
+  padding: 12px 8px;
+  border-bottom: 1px solid #e9ecef; /* Very light border for table rows for minimal contrast */
+}
+
+.crypto-table th {
+  background-color: #f8f9fa; /* Light gray for header background for subtle distinction */
+  color: #212529; /* Dark text for maximum legibility */
+}
+
+.crypto-table tr:hover {
+  background-color: #e9ecef; /* Light gray for hover state, ensuring readability */
+}
+
+/* Styling for buttons and dropdowns to match the light theme */
+.button, .dropdown {
+  background-color: #FFFFFF; /* A lighter shade of blue for interactive elements */
+  color: #ffffff; /* White text for contrast */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Button and dropdown hover states for interactivity */
+.button:hover, .dropdown:hover {
+  background-color: #0B5ED7; /* A slightly darker blue for hover effect */
+}
+
+/* Responsive table styles for smaller screens */
+@media (max-width: 768px) {
+  .crypto-table th, .crypto-table td {
+    padding: 10px 5px;
+  }
+}
+
+/* Additional responsive design for the entire layout on very small screens */
+@media (max-width: 600px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .dashboard-title, .dropdown {
+    width: 100%;
+    text-align: center;
+  }
+
+  .button, .dropdown {
+    width: 90%;
+    margin: 10px auto;
+  }
+}

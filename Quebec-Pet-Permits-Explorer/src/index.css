@@ -1,0 +1,78 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Arial Narrow", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333; /* Text color for light theme */
+  background-color: #f5f5f5; /* Background color for light theme */
+}
+
+
+.bg-card {
+  background-color: #fff; /* Background color for cards */
+}
+
+.bg-sidebar-card-top {
+  background-color: #eee; /* Background color for sidebar cards */
+}
+
+.sidebar-separator-top {
+  border-bottom: 1px solid #ddd; /* Separator color */
+}
+
+.sidebar-separator-bottom {
+  border-top: 1px solid #ddd; /* Separator color */
+}
+
+.text-premium-yellow {
+  color: #f7b91c; /* Premium text color */
+}
+
+.icon-background {
+  background: #f0f0f0; /* Background color for icons */
+}
+
+.tooltip-head {
+  background: #f0f0f0; /* Tooltip header background color */
+}
+
+.tooltip-body {
+  background: #fafafa; /* Tooltip body background color */
+}
+
+.search-icon {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.card-stack-border {
+  border-bottom: 2px solid #ddd; /* Border color for card stack */
+}
+
+.bg-details {
+  background-color: #f5f5f5; /* Background color for details section */
+}
+
+.add-component-head {
+  background-color: #f0f0f0; /* Background color for add component header */
+  background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+}
+
+.sidebar-item-selected {
+  color: #333; /* Selected sidebar item color */
+  border-right: 2px solid #333; /* Border color for selected sidebar item */
+}
+
+.sidebar-item {
+  border-right: 2px solid transparent; /* Border color for regular sidebar item */
+}
+
+.sidebar-item:hover {
+  color: #777; /* Hover color for sidebar items */
+}

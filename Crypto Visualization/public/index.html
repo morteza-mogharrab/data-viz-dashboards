@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" /> <!-- Set theme color to white -->
+  <meta
+    name="description"
+    content="Web site created using create-react-app"
+  />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" type="text/css" href="//db.onlinewebfonts.com/c/f21923cb0f60b46d41a66875255790b3?family=NHaasGroteskDSPro-65Md"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/> <!-- Use Bootstrap's default light theme -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Crypto Dashboard</title>
+  <style>
+    /* Add additional styles here */
+    .dashboard-container {
+      display: flex;
+      justify-content: space-between; /* This will space the dropdown and the title */
+      align-items: center;
+      padding: 20px;
+    }
+    
+    body {
+      background-color: #f8f9fa; /* Set a light background color */
+      color: #000000; /* Set text color to black */
+    }
+  </style>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <!-- Your main app container -->
+    <div class="dashboard-container">
+      <div class="dashboard-title">
+        <h1>Digital Currency Visualization Platform</h1>
+      </div>
+      <div class="dropdown">
+        <!-- Your dropdown code here -->
+        <select>
+          <option value="bitcoin">Bitcoin</option>
+          <!-- More options here -->
+        </select>
+      </div>
+    </div>
+    <!-- The rest of your dashboard elements -->
+  </div>
+</body>
+</html>
