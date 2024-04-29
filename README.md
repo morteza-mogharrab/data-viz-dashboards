@@ -2,6 +2,9 @@
 
 Welcome to our Data Visualization Dashboard! These web applications are implemented using HTML, CSS, and React.js to provide users with interactive and insightful data visualization.
 
+![Image 1](Crypto-Visualization.jpg)
+![Image 2](Quebec-Pet-Permits-Explorer.jpg)
+
 ## Application Usage Instructions
 
 Follow these steps to compile and run the application:
